@@ -76,7 +76,7 @@ function editUser(index) {
 
 // Function to delete user
 function deleteUser(index) {
-  if (confirm('Are you sure you want to delete this user?')) {
+  if (confirm('Are you sure you want to delete this user????????????????')) {
     users.splice(index, 1);
     localStorage.setItem('users', JSON.stringify(users)); 
 
@@ -89,3 +89,4 @@ form.addEventListener('submit', addUser);
 
 // Render initial table rows
 renderRows();
+
